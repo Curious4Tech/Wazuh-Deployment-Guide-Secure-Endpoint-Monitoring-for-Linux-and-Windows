@@ -62,6 +62,8 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
      ```bash
      ip a
      ```
+![image](https://github.com/user-attachments/assets/6a4d5a8b-95d6-4b2e-843e-5132f8dba0db)
+
 
 ### 7. **Access the Wazuh Dashboard**
    - Open a web browser and navigate to:

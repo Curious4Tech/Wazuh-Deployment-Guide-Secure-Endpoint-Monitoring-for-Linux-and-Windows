@@ -66,21 +66,31 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 
 
 ### 7. **Access the Wazuh Dashboard**
-   - Open a web browser and navigate to:
+   - Open a web browser from another oon the same network (e.g, Debian or Windows) and navigate to:
      ```text
      https://<wazuh_server_ip>
      ```
    - Replace `<wazuh_server_ip>` with the IP address obtained in the previous step.
+   - If pop-pup windows open, click on `Advaanced` and then click on `Accept the Risk and Continue`
+
+![image](https://github.com/user-attachments/assets/bd43b0cc-1a3b-45cf-8a8a-c00e8eacfc2d)
+
    - Dashboard login credentials:
      - **Username:** `admin`
      - **Password:** `admin`
+
+![image](https://github.com/user-attachments/assets/68665414-a4b5-4895-8201-194886af8bc7)
+
+ - You have successfully install the wauh server using the OVA file.
+
+![image](https://github.com/user-attachments/assets/f56e49b0-54a7-47d8-aac2-a78a48eba84f)
 
 ---
 
 ### Additional Notes
 - Adjust hardware settings in the virtualization platform if needed to handle more endpoints or data.
 - SSH login as `root` is disabled by default. Use the `wazuh-user` account with `sudo` privileges for administrative tasks.
-
+- Change the default password with a strong password
 ---
 
 Feel free to copy this guide into your GitHub repository. Let me know if you need help formatting or customizing it further!

@@ -20,7 +20,7 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 ### 2. **Check System Requirements**
    - Ensure your host system is 64-bit.
    - Enable **hardware virtualization** in the firmware (BIOS/UEFI) of your host.
-   - Install a virtualization platform like **VirtualBox**.
+   - Install a virtualization platform like **VirtualBox** or **VMware** or **Hyper-V**.
 
    **Default Hardware Configuration for Wazuh VM:**
    - **CPU:** 4 cores
@@ -30,10 +30,20 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
    *Note:* Modify the configuration based on your needs.
 
 ### 3. **Import the OVA File**
-   - Open your virtualization platform (e.g., VirtualBox).
+   - Open your virtualization platform (e.g., VMware).
    - Import the downloaded OVA file:
-     - In VirtualBox, go to `File > Import Appliance`.
-     - Select the Wazuh OVA file and follow the prompts.
+     - In VMware, go to `File > Open...`.
+
+![image](https://github.com/user-attachments/assets/46a49ab8-5e5a-4472-a4b0-6cbff558eb4b)
+
+     - Select the Wazuh OVA file and click on `Open`.
+     
+![image](https://github.com/user-attachments/assets/7ec0e9ac-a47e-452a-ba0a-41e9fa36e673)
+
+     - In the new display give a name to your VM, and choose the path where to store your VM configuraton files. Then click on **Import**.
+
+![image](https://github.com/user-attachments/assets/230a2067-85c4-483d-b890-6d58bb2c4860)
+
 
 ### 4. **Configure Display Settings**
    - In VirtualBox, adjust the graphic controller to prevent freezing issues:

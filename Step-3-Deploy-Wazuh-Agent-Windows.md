@@ -5,7 +5,7 @@ The Wazuh agent monitors Windows systems and communicates with the Wazuh server 
 ---
 
 #### **Prerequisites**
-- Administrator privileges on the Windows endpoint.
+- Administrator privileges on the Windows endpoint, here am using Windows Server 2022.
 - A running Wazuh server set up in Step 1.
 - Network connectivity between the Windows endpoint and the Wazuh server.
 
@@ -88,3 +88,6 @@ To install the agent without registering it, omit the deployment variables (e.g.
 ### **Deployment Complete**
 
 The Wazuh agent is now successfully installed and configured on your Windows endpoint. It communicates securely with the Wazuh server, sending critical monitoring data.
+
+![image](https://github.com/user-attachments/assets/0ee90bf5-41e6-4bc4-9092-0cc48439953f)
+

@@ -50,10 +50,6 @@ Install the Wazuh agent by specifying the Wazuh manager’s IP address or hostna
 
 ![image](https://github.com/user-attachments/assets/31fcb7e1-fb3f-4c73-819b-14fdfcf57a81)
 
-2. **Additional Deployment Options**  
-   - To configure agent-specific settings like the agent name, group, or registration password, refer to the [Deployment Variables for Linux](https://documentation.wazuh.com/) section.  
-   - If you prefer to install the agent without registration, omit the deployment variables. Learn more in the [Agent Enrollment](https://documentation.wazuh.com/) section.
-
 ---
 
 #### **3. Enable and Start the Agent Service**

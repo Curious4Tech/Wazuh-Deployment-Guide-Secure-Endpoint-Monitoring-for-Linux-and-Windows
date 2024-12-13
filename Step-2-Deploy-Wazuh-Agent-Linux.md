@@ -47,7 +47,8 @@ Install the Wazuh agent by specifying the Wazuh manager’s IP address or hostna
    ```bash
    WAZUH_MANAGER="10.0.0.2" yum install wazuh-agent
    ```
-![image](https://github.com/user-attachments/assets/256878dc-27f7-46f4-a769-7be387974d5e)
+
+![image](https://github.com/user-attachments/assets/31fcb7e1-fb3f-4c73-819b-14fdfcf57a81)
 
 2. **Additional Deployment Options**  
    - To configure agent-specific settings like the agent name, group, or registration password, refer to the [Deployment Variables for Linux](https://documentation.wazuh.com/) section.  

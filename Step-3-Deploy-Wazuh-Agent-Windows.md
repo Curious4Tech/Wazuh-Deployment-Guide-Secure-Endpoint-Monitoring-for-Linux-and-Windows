@@ -1,7 +1,3 @@
-Here’s the SEO-friendly, detailed guide for installing Wazuh agents on Windows endpoints, designed to integrate into your repository alongside the Linux guide:
-
----
-
 ### **Step 3: Installing Wazuh Agents on Windows Endpoints**
 
 The Wazuh agent monitors Windows systems and communicates with the Wazuh server in near real-time through an encrypted and authenticated channel. It supports a wide range of Windows operating systems, from Windows XP to Windows 11 and Windows Server 2022.

@@ -1,6 +1,7 @@
 # **Wazuh Deployment Guide**
 
-[https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/home/wazuh-dashboard-wide.mp4?ver=1729495856529](https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/home/wazuh-dashboard-wide.mp4?ver=1729495856529)
+![image](https://github.com/user-attachments/assets/d6c95991-dbf2-40cf-b81f-815c9287cc13)
+
 
 ## **Overview**
 

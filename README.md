@@ -32,26 +32,23 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 ### 3. **Import the OVA File**
    - Open your virtualization platform (e.g., VMware).
    - Import the downloaded OVA file:
-     - In VMware, go to `File > Open...`.
+     - In VMware, go to `File > Open...`
 
 ![image](https://github.com/user-attachments/assets/46a49ab8-5e5a-4472-a4b0-6cbff558eb4b)
 
-   - Select the Wazuh OVA file and click on `Open`.
+   - Select the Wazuh OVA file and click on `Open`
      
 ![image](https://github.com/user-attachments/assets/7ec0e9ac-a47e-452a-ba0a-41e9fa36e673)
 
-   - In the new display give a name to your VM (e,g : Wuzuh Server), choose the path where to store your VM configuraton files and then click on **Import**.
+   - In the new open windows, give a name to your VM (e,g : Wuzuh Server), choose the path where to store your VM configuraton files and then click on **Import**.
 
 ![image](https://github.com/user-attachments/assets/230a2067-85c4-483d-b890-6d58bb2c4860)
 
+  - Your VM has been successfully imported. You can now add more RAM (e,g: from 8Gb to 10Gb), Storage ( From 50 Gb to 80Gb) and CPUs (4 to 8) if you want or have more resources. Also choose the correct network  adapter (e.g, from bridge to NAT) for the sake of this demo. And then click on `Power on this virtual machne`
 
-### 4. **Configure Display Settings**
-   - In VirtualBox, adjust the graphic controller to prevent freezing issues:
-     - Select the imported VM.
-     - Click `Settings > Display`.
-     - Set the **Graphic Controller** to `VMSVGA`.
+![image](https://github.com/user-attachments/assets/dccdf0fe-186e-44c9-8e4c-36d27101cccd)
 
-### 5. **Start the Virtual Machine**
+### 4. **Start the Virtual Machine**
    - Start the VM from your virtualization platform.
    - Login credentials for the VM:
      - **Username:** `wazuh-user`

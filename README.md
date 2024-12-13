@@ -44,19 +44,18 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 
 ![image](https://github.com/user-attachments/assets/230a2067-85c4-483d-b890-6d58bb2c4860)
 
-  - Your VM has been successfully imported. You can now add more RAM (e,g: from 8Gb to 10Gb), Storage ( From 50 Gb to 80Gb) and CPUs (4 to 8) if you want or have more resources. Also choose the correct network  adapter (e.g, from bridge to NAT) for the sake of this demo. And then click on `Power on this virtual machne`
+  - Your VM has been successfully imported. You can now add more RAM (e,g: from 8Gb to 10Gb), Storage ( From 50 Gb to 80Gb) and CPUs (4 to 8) if you want or have more resources. Also choose the correct network  adapter (e.g, from bridge to NAT) for the sake of this demo.
 
 ![image](https://github.com/user-attachments/assets/9aa9af73-ffdd-4e5b-aee3-817e1148fa42)
 
 ### 4. **Start the Virtual Machine**
-   - Start the VM from your virtualization platform.
+   - Start the VM from your virtualization platform by clicking on `Power on this virtual machne`.
    - Login credentials for the VM:
      - **Username:** `wazuh-user`
      - **Password:** `wazuh`
-   - To escalate to root privileges, run:
-     ```bash
-     sudo -i
-     ```
+
+![image](https://github.com/user-attachments/assets/41f07473-a830-4399-aeaa-4035182de09c)
+
 
 ### 6. **Find the VM's IP Address**
    - Inside the VM, run the following command to get the IP address:

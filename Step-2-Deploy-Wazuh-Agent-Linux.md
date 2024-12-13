@@ -61,20 +61,28 @@ Activate the Wazuh agent on your Linux endpoint:
    systemctl daemon-reload
    ```
 
+![image](https://github.com/user-attachments/assets/76f2b8da-9e31-4e12-a27b-801ed13f1ac9)
+
 2. Enable the Wazuh agent service:
    ```bash
    systemctl enable wazuh-agent
    ```
+
+![image](https://github.com/user-attachments/assets/b169792b-7c44-4f60-bd21-32b3b3706b71)
 
 3. Start the service:
    ```bash
    systemctl start wazuh-agent
    ```
 
+![image](https://github.com/user-attachments/assets/878ebc64-875d-40a3-ae1a-474d127b1baf)
+
 Verify the service is running successfully:
 ```bash
 systemctl status wazuh-agent
 ```
+
+![image](https://github.com/user-attachments/assets/dc09442f-bd8e-487e-8aec-1eeb59530865)
 
 ---
 
@@ -86,9 +94,9 @@ To ensure compatibility between the Wazuh agent and the Wazuh manager, disable u
 sed -i "s/^enabled=1/enabled=0/" /etc/yum.repos.d/wazuh.repo
 ```
 
+![image](https://github.com/user-attachments/assets/ce1b2543-5d6d-478f-850f-a3eece22c9f1)
+
 ---
 
 ### **Deployment Complete**
 The Wazuh agent is now installed and running on your Linux endpoint. It will securely communicate with the Wazuh server, sending data for monitoring and analysis.
-
----

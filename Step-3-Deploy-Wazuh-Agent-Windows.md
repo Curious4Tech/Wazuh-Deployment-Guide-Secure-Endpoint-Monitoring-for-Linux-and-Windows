@@ -13,7 +13,7 @@ The Wazuh agent monitors Windows systems and communicates with the Wazuh server 
 
 #### **1. Download the Wazuh Agent Installer**
 
-1.[Download the Wazuh agent Windows installer from the official website.](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.9.2-1.msi) page to obtain the .  
+1.[Download the Wazuh agent Windows installer from the official website.](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.9.2-1.msi).  
 2. Save the installer (e.g., `wazuh-agent-4.9.2-1.msi`) on your Windows endpoint.
 
 ![image](https://github.com/user-attachments/assets/0c95eeb3-2f64-43c3-98fe-42c92fe7fb5e)
@@ -41,8 +41,7 @@ Open PowerShell as an administrator and execute:
 ```powershell
 .\wazuh-agent-4.9.2-1.msi /q WAZUH_MANAGER="10.0.0.2"
 ```
-
-For additional options like setting the agent name, group, or registration password, refer to the [Deployment Variables for Windows](https://documentation.wazuh.com/) section.
+![image](https://github.com/user-attachments/assets/598b8882-b328-4cfc-aea4-7e9e1093c122)
 
 ---
 
@@ -63,6 +62,8 @@ After installation, the Wazuh agent service must be started to begin monitoring:
    ```cmd
    NET START Wazuh
    ```
+
+![image](https://github.com/user-attachments/assets/d2192659-1f74-45cd-a0d1-970a45092001)
 
 2. **Start from the GUI:**  
    Open the **Services** application in Windows, locate the **Wazuh Agent** service, and click **Start**.
@@ -87,5 +88,3 @@ To install the agent without registering it, omit the deployment variables (e.g.
 ### **Deployment Complete**
 
 The Wazuh agent is now successfully installed and configured on your Windows endpoint. It communicates securely with the Wazuh server, sending critical monitoring data.
-
----

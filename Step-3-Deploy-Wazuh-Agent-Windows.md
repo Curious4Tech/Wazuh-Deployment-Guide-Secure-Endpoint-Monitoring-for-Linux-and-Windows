@@ -41,7 +41,8 @@ Open PowerShell as an administrator and execute:
 ```powershell
 .\wazuh-agent-4.9.2-1.msi /q WAZUH_MANAGER="10.0.0.2"
 ```
-![image](https://github.com/user-attachments/assets/598b8882-b328-4cfc-aea4-7e9e1093c122)
+
+![image](https://github.com/user-attachments/assets/396efbb3-c4be-4875-b080-55962ed26a49)
 
 ---
 
@@ -63,7 +64,7 @@ After installation, the Wazuh agent service must be started to begin monitoring:
    NET START Wazuh
    ```
 
-![image](https://github.com/user-attachments/assets/d2192659-1f74-45cd-a0d1-970a45092001)
+![image](https://github.com/user-attachments/assets/1ea342fb-6ce3-4111-a2c2-77cc3310a5d0)
 
 2. **Start from the GUI:**  
    Open the **Services** application in Windows, locate the **Wazuh Agent** service, and click **Start**.

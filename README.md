@@ -1,6 +1,6 @@
 # **Wazuh Deployment Guide**
 
-![Wazuh Logo](https://documentation.wazuh.com/assets/images/logo_wazuh-588d01e0.png)
+![Wazuh Logo](https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/home/wazuh-dashboard-wide.mp4?ver=1729495856529)
 
 ## **Overview**
 

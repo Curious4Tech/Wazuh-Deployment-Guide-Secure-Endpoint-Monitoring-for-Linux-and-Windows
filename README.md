@@ -36,11 +36,11 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 
 ![image](https://github.com/user-attachments/assets/46a49ab8-5e5a-4472-a4b0-6cbff558eb4b)
 
-     - Select the Wazuh OVA file and click on `Open`.
+   - Select the Wazuh OVA file and click on `Open`.
      
 ![image](https://github.com/user-attachments/assets/7ec0e9ac-a47e-452a-ba0a-41e9fa36e673)
 
-     - In the new display give a name to your VM, and choose the path where to store your VM configuraton files. Then click on **Import**.
+   - In the new display give a name to your VM (e,g : Wuzuh Server), choose the path where to store your VM configuraton files and then click on **Import**.
 
 ![image](https://github.com/user-attachments/assets/230a2067-85c4-483d-b890-6d58bb2c4860)
 

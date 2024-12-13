@@ -101,3 +101,5 @@ sed -i "s/^enabled=1/enabled=0/" /etc/yum.repos.d/wazuh.repo
 
 ### **Deployment Complete**
 The Wazuh agent is now installed and running on your Linux endpoint. It will securely communicate with the Wazuh server, sending data for monitoring and analysis.
+
+![image](https://github.com/user-attachments/assets/10f8b13e-8db0-41b7-8402-e9a4a500b37b)

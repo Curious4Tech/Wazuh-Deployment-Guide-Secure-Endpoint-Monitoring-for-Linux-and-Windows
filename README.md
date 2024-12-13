@@ -9,7 +9,7 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 ## Step-by-Step Guide: Installing Wazuh Using the Virtual Machine (OVA)
 
 ### 1. **Download the Wazuh Virtual Appliance (OVA)**
-   - Download the pre-built Wazuh OVA file for version 4.9.2[https://wazuh.com/download/](https://packages.wazuh.com/4.x/vm/wazuh-4.9.2.ova).
+   - Download the pre-built Wazuh OVA file for version 4.9.2 from [Wazuh's official site](https://packages.wazuh.com/4.x/vm/wazuh-4.9.2.ova).
    - The OVA includes the following components:
      - **Amazon Linux 2**
      - **Wazuh manager 4.9.2**

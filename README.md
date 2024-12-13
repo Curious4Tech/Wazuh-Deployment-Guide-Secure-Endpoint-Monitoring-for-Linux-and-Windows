@@ -46,7 +46,7 @@ Here’s a step-by-step guide to install Wazuh using the Virtual Machine (OVA) f
 
   - Your VM has been successfully imported. You can now add more RAM (e,g: from 8Gb to 10Gb), Storage ( From 50 Gb to 80Gb) and CPUs (4 to 8) if you want or have more resources. Also choose the correct network  adapter (e.g, from bridge to NAT) for the sake of this demo. And then click on `Power on this virtual machne`
 
-![image](https://github.com/user-attachments/assets/dccdf0fe-186e-44c9-8e4c-36d27101cccd)
+![image](https://github.com/user-attachments/assets/9aa9af73-ffdd-4e5b-aee3-817e1148fa42)
 
 ### 4. **Start the Virtual Machine**
    - Start the VM from your virtualization platform.

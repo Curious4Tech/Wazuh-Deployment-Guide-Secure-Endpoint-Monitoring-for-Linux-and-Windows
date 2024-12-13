@@ -48,7 +48,8 @@ Install the Wazuh agent by specifying the Wazuh manager’s IP address or hostna
    WAZUH_MANAGER="10.0.0.2" yum install wazuh-agent
    ```
 
-![image](https://github.com/user-attachments/assets/31fcb7e1-fb3f-4c73-819b-14fdfcf57a81)
+![image](https://github.com/user-attachments/assets/bcad8b73-d69c-4b2b-97cb-305a42a5904d)
+
 
 ---
 

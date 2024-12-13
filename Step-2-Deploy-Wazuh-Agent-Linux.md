@@ -4,7 +4,7 @@ The Wazuh agent runs on the endpoints you want to monitor and communicates secur
 
 #### **Prerequisites**
 - A running Wazuh server (set up in Step 1).
-- Root privileges on the Linux endpoint.
+- Root privileges on the Linux endpoint, here am using the lastest of `Redhat Linux Entreprise`.
 - Network connectivity between the Wazuh server and the endpoint.
 
 ---
@@ -17,6 +17,8 @@ First, add the official Wazuh repository to your Linux system to access the agen
    ```bash
    rpm --import https://packages.wazuh.com/key/GPG-KEY-WAZUH
    ```
+
+![image](https://github.com/user-attachments/assets/5e5630ae-873e-4c93-abef-06578aebd9ac)
 
 2. **Add the Repository**  
    Create a new repository configuration file with the following command:  
@@ -32,6 +34,8 @@ First, add the official Wazuh repository to your Linux system to access the agen
    EOF
    ```
 
+![image](https://github.com/user-attachments/assets/5bed6ba1-45a8-4f34-86ab-5ab9f00e3ddd)
+
 ---
 
 #### **2. Deploy the Wazuh Agent**
@@ -43,9 +47,10 @@ Install the Wazuh agent by specifying the Wazuh manager’s IP address or hostna
    ```bash
    WAZUH_MANAGER="10.0.0.2" yum install wazuh-agent
    ```
+![image](https://github.com/user-attachments/assets/ad4e035f-66b2-494f-8084-d4a7a0f7086a)
 
 2. **Additional Deployment Options**  
-   - To configure agent-specific settings like the agent name, group, or registration password, refer to the [Deployment Variables for Linux](https://documentation.wazuh.com/) section.  
+   - To configure agent-specific settings like the agent name, group, or registration password, refer to the                                                         [Deployment Variables for Linux](https://documentation.wazuh.com/) section.  
    - If you prefer to install the agent without registration, omit the deployment variables. Learn more in the [Agent Enrollment](https://documentation.wazuh.com/) section.
 
 ---

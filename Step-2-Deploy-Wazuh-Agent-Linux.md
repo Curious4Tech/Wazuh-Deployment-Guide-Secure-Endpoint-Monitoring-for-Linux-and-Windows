@@ -90,22 +90,3 @@ sed -i "s/^enabled=1/enabled=0/" /etc/yum.repos.d/wazuh.repo
 The Wazuh agent is now installed and running on your Linux endpoint. It will securely communicate with the Wazuh server, sending data for monitoring and analysis.
 
 ---
-
-### **Suggested Repository Structure**
-To organize the content, update your repository’s structure like this:
-
-```
-/
-├── README.md
-├── Step-1-Install-Wazuh-Server.md
-├── Step-2-Deploy-Wazuh-Agent.md
-```
-
-### **SEO Keywords**  
-- Wazuh agent deployment on Linux  
-- Monitor endpoints with Wazuh  
-- Wazuh agent setup guide  
-- Endpoint monitoring with Wazuh  
-- Linux Wazuh agent configuration  
-
-This addition complements your previous Wazuh guide and provides a clear and SEO-friendly structure for your repository. Let me know if you need further adjustments!

@@ -16,7 +16,7 @@ The Wazuh agent monitors Windows systems and communicates with the Wazuh server 
 1.[Download the Wazuh agent Windows installer from the official website.](https://packages.wazuh.com/4.x/windows/wazuh-agent-4.9.2-1.msi).  
 2. Save the installer (e.g., `wazuh-agent-4.9.2-1.msi`) on your Windows endpoint.
 
-![image](https://github.com/user-attachments/assets/0c95eeb3-2f64-43c3-98fe-42c92fe7fb5e)
+![image](https://github.com/user-attachments/assets/41ed1efa-375c-4b96-b4d0-ea6390aeef91)
 
 ---
 

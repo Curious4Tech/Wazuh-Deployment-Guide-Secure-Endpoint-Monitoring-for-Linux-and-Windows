@@ -89,8 +89,3 @@ Follow the [Step-3 Guide](Step-3-Deploy-Wazuh-Agent-Windows.md) to install and c
 ## **Contributing**
 
 Contributions are welcome! If you have suggestions or find issues, please submit a pull request or open an issue.
-
----
-
-## **License**
-This repository is licensed under the [MIT License](LICENSE).
